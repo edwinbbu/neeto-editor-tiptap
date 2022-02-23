@@ -134,7 +134,7 @@ export const EDITOR_PROP_TABLE_ROWS = [
   [
     "addons",
     "Accepts an array of strings, each corresponding to the name of an addon.",
-    `["highlight", "emoji", "code-block", "block-quote", "image-upload", "divider", "video-embed"]`,
+    `["highlight", "emoji", "code-block", "note", "block-quote", "image-upload", "divider", "video-embed"]`,
   ],
   [
     "addonCommands",
@@ -202,6 +202,7 @@ export const SAMPLE_ADDONS = [
   "highlight",
   "emoji",
   "code-block",
+  "note",
   "block-quote",
   "image-upload",
   "divider",
@@ -280,6 +281,7 @@ export const STRINGS = {
     "highlight",
     "emoji",
     "code-block",
+    "note",
     "block-quote",
     "image-upload",
     "divider",
